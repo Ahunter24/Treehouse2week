@@ -1,6 +1,6 @@
-/* 
+/* ========================================
   Fixes Box Sizing
- */
+======================================== */
 
 html {
   -webkit-box-sizing: border-box;
@@ -16,9 +16,9 @@ html {
 
 
 
-/* 
+/* ========================================
   Clears List Styles, Margin, and Padding
-*/
+======================================== */
 
 
 ul {
@@ -29,14 +29,16 @@ ul {
 
 
 
-/* 
+/* ========================================
   General CSS
- */
+======================================== */
 
 * {
   font-family: 'Open Sans', sans-serif;
   color: #ff4141;
 }
+
+
 
 a {
   text-decoration: none;
@@ -60,10 +62,7 @@ h2 {
 }
 
 /* Portfolio, Phone, Email */
-h3 {
-  font-size: 1.2em;
-  font-weight: 400;
-}
+
 
 p {
   font-size: .9em;
@@ -129,17 +128,10 @@ header {
 .social-link {
   font-weight: 400;
   font-size: 1.1em;
-  padding-left: 8px;
+  padding-right:15em;
 }
 
-.fa {
-  font-size: 1.4em;
-}
 
-.fa:hover {
-  -webkit-transform: rotate(15deg);
-  transform: rotate(15deg);
-}
 
 
 /* Portfolio Content */
@@ -202,12 +194,7 @@ header {
   margin-bottom: 15px;
 }
 
-#contact h3 {
-  display: inline;
-  font-weight: 200;
-  font-size: 1em;
-  color: #888;
-}
+
 #contact p {
   max-width: 90%;
   margin: 0 auto;
@@ -253,9 +240,9 @@ footer a {
   display: none;
 }
 
-/* 
+/* ========================================
   Media Queries
- */
+======================================== */
 
 /* Tablets */
 
@@ -363,9 +350,7 @@ footer a {
     font-size: 1.4em;
   }
 
-  .fa {
-    font-size: 1.8em;
-  }
+  
 
   .main-nav li {
     padding-right: 0;
@@ -375,6 +360,8 @@ footer a {
   .col {
   max-width: 30%;
   }
+  
+  
 
   #portfolio {
   margin-bottom: 30px;
